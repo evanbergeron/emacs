@@ -2,14 +2,9 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("RTags_1"
- (filename . "~/memsql/MemSqlSharding/ShardingOptimizer.h")
- (front-context-string . "ArrangeCte(CTE* ")
- (rear-context-string . "ect);\n\n    bool ")
- (position . 24269))
-("RTags_0"
- (filename . "~/memsql/MemSqlSharding/ShardingOptimizer.cpp")
- (front-context-string . "ArrangeCte(CTE* ")
- (rear-context-string . "l ShardingPlan::")
- (position . 295476))
+(("RTags_0"
+ (filename . "~/memsql/MemSqlUtil/OperatorTreeUtil.cpp")
+ (front-context-string . "GenerateNewAlias")
+ (rear-context-string . "\n}\n\nconst char* ")
+ (position . 15471))
 )

@@ -7,4 +7,5 @@
 (provide 'init-cpp)
 
 (evil-leader/set-key
-  "d" 'c-toggle-dot-pointer)
+  "o" 'c-toggle-dot-pointer
+  "l" 'clang-format-region)
