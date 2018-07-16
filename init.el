@@ -35,7 +35,7 @@
      ("melpa" . "http://melpa.org/packages/"))))
  '(package-selected-packages
    (quote
-    (magit solarized-theme rainbow-mode magit-popup key-chord ido-grid-mode git-commit ghub evil-numbers evil-leader evil-commentary dracula-theme clang-format atom-one-dark-theme))))
+    (flycheck magit solarized-theme rainbow-mode magit-popup key-chord ido-grid-mode git-commit ghub evil-numbers evil-leader evil-commentary dracula-theme clang-format atom-one-dark-theme))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

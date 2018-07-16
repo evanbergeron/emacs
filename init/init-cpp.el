@@ -8,4 +8,5 @@
 
 (evil-leader/set-key
   "o" 'c-toggle-dot-pointer
+  "h" 'ff-find-other-file
   "l" 'clang-format-region)
