@@ -17,11 +17,12 @@
 (require 'init-visual)
 (require 'init-rtags)
 (require 'init-cpp)
+(require 'init-memsql)
 (require 'init-magit)
 (require 'init-flycheck)
 
 (setq inhibit-splash-screen t)
-(switch-to-buffer "~/.emacs.splash")
+;; (switch-to-buffer "~/.emacs.splash")
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -36,7 +37,7 @@
      ("melpa" . "http://melpa.org/packages/"))))
  '(package-selected-packages
    (quote
-    (ido-completing-read+ flycheck magit solarized-theme rainbow-mode magit-popup key-chord ido-grid-mode git-commit ghub evil-numbers evil-leader evil-commentary dracula-theme clang-format atom-one-dark-theme))))
+    (general ido-completing-read+ flycheck magit solarized-theme rainbow-mode magit-popup key-chord ido-grid-mode git-commit ghub evil-numbers evil-leader evil-commentary dracula-theme clang-format atom-one-dark-theme))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
