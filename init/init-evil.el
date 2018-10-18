@@ -19,11 +19,8 @@
   "k" 'evil-window-up
   "l" 'evil-window-right
   "h" 'evil-window-left
-  ;; "u" 'evil-scroll-up
-  ;; "d" 'evil-scroll-down
   "i" 'evil-shell-insert
   "s" 'toggle-window-split)
-  ;; "f" 'clang-format-region)
 
 (evil-commentary-mode)
 
