@@ -4,6 +4,7 @@
    ((looking-at "\\.")   (replace-string "." "->" nil (point) (+ (point) 1)))
    ((looking-at "\\->")  (replace-string "->" "." nil (point) (+ (point) 2)))))
 
+
 (evil-leader/set-key
   "o" 'c-toggle-dot-pointer
   "h" 'ff-find-other-file
@@ -17,5 +18,7 @@
 (add-hook 'c-mode-common-hook '(lambda () (c-toggle-auto-state 1)))
 
 (define-key c++-mode-map [C-down-mouse-1] 'rtags-find-symbol-at-point)
+
+(add-to-list 'auto-mode-alist '("\\.yxx\\'" . c++-mode))
 
 (provide 'init-cpp)
