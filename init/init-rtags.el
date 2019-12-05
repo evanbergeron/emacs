@@ -1,10 +1,6 @@
 (add-to-list 'load-path (concat (getenv "PATH_TO_MEMSQL") "/utils/private/emacs/rtags"))
+;; (add-to-list 'load-path "/home/evan/memsql/utils/private/emacs/rtags")
 (require 'rtags)
-
-;; (global-set-key (kbd "C-x r f") 'rtags-find-symbol)
-;; (global-set-key (kbd "C-x r p") 'rtags-find-symbol-at-point)
-;; (global-set-key (kbd "C-x r u") 'rtags-find-references)
-;; (global-set-key (kbd "C-x r q") 'rtags-find-references-at-point)
 
 (evil-leader/set-key
   "d" 'rtags-find-symbol-at-point
