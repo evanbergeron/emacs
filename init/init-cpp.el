@@ -9,7 +9,9 @@
   "o" 'c-toggle-dot-pointer
   "h" 'ff-find-other-file
   "p" 'gud-break
-  "l" 'clang-format-region)
+  "l" 'clang-format-region
+  "[" 'beginning-of-defun
+  "]" 'end-of-defun)
 
 (setq-default c-basic-offset 4)
 (setq c-default-style "linux")
