@@ -3,7 +3,7 @@
 ;; `-ex run` tells gdb to run the server (saves having to manually press `r`)
 (defun start-singlebox ()
   (interactive)
-  (insert " -ex run --args /home/evan/memsql/debug/memsqld --skynetv6_singlebox")
+  (insert " -ex run --args /home/evan/memsql/debug/memsqld --singlebox")
 )
 
 (defun start-distributed ()
