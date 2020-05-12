@@ -7,8 +7,6 @@
       '("~/.emacs.d/snippets"                 ;; personal snippets
         ))
 
-(evil-leader/set-key
-  "x" 'yas-expand)
-
+(global-set-key (kbd "M-p") 'yas-expand)
 
 (provide 'init-snippets)
