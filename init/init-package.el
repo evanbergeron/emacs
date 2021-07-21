@@ -1,14 +1,16 @@
 ;; package-install
 (require 'package)
-(add-to-list 'package-archives
-             '("melpa" . "http://melpa.org/packages/") t)
-(add-to-list 'package-archives
-	     '("marmalade" . "http://marmalade-repo.org/packages/"))
 
 (package-initialize)
 
-(when (not package-archive-contents)
-  (package-refresh-contents))
+(add-to-list 'package-archives
+             '("MELPA Stable" . "https://stable.melpa.org/packages/") t)
+(add-to-list 'package-archives
+             '("melpa" . "http://melpa.org/packages/") t)
+(add-to-list 'package-archives
+             '("melpa" . "http://melpa.milkbox.net/packages/") t)
+
+(package-refresh-contents)
 
 (defun require-package (package &optional require-name)
   (when (not (package-installed-p package))
